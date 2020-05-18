@@ -1,0 +1,57 @@
+{
+    "@id": "https://readux.ecdsdev.org/annotations/jpkgoogle/emory:b70fm/list/fedora:emory:gz698",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "resource": {
+                "language": "en",
+                "chars": "<p>Title!</p>",
+                "format": "text/html",
+                "@type": "dctypes:Text"
+            },
+            "stylesheet": {
+                "value": ".anno-45c71547-6b49-4b8f-ad0a-6d820afa7eab { background: rgba(0, 191, 255, 0.5); }",
+                "type": "CssStylesheet"
+            },
+            "motivation": "oa:commenting",
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "annotatedBy": {
+                "name": "Jesse P. Karlsberg"
+            },
+            "@id": "45c71547-6b49-4b8f-ad0a-6d820afa7eab",
+            "on": {
+                "within": {
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/emory:b70fm/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "full": "https://readux.ecdsdev.org/iiif/v2/emory:b70fm/canvas/fedora:emory:gz698",
+                "selector": {
+                    "item": {
+                        "startSelector": {
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 0
+                            },
+                            "value": "//*[@id='131e4dfd-7d9f-4646-89bc-23c0cf6c7594']",
+                            "@type": "XPathSelector"
+                        },
+                        "@type": "RangeSelector",
+                        "endSelector": {
+                            "refinedBy": {
+                                "end": 9,
+                                "@type": "TextPositionSelector"
+                            },
+                            "value": "//*[@id='a8528a55-57bd-4f00-bf7b-9ec1af55c5fa']",
+                            "@type": "XPathSelector"
+                        }
+                    },
+                    "value": "xywh=413,194,619,59",
+                    "@type": "oa:FragmentSelector"
+                },
+                "@type": "oa:SpecificResource"
+            },
+            "@type": "oa:Annotation"
+        }
+    ]
+}

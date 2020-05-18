@@ -1,0 +1,203 @@
+{
+    "related": [
+        "https://readux.ecdsdev.org/volume/emory:b70fm/page/all"
+    ],
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "metadata": [
+        {
+            "value": "x",
+            "label": "Author"
+        },
+        {
+            "value": "x",
+            "label": "Publisher"
+        },
+        {
+            "value": "x",
+            "label": "Place of Publication"
+        },
+        {
+            "value": "1640",
+            "label": "Publication Date"
+        },
+        {
+            "value": [
+                {}
+            ],
+            "label": "Notes"
+        },
+        {
+            "value": "2019-04-01T14:41:06.798Z",
+            "label": "Record Created"
+        },
+        {
+            "value": "Readux IIIF Exported Edition",
+            "label": "Edition Type"
+        },
+        {
+            "value": "https://readux.ecdsdev.org/about/",
+            "label": "About Readux"
+        },
+        {
+            "value": "Jesse P. Karlsberg",
+            "label": "Annotators"
+        },
+        {
+            "value": "2020-05-18T17:15:07.702",
+            "label": "Export Date"
+        }
+    ],
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "logo": "https://readux.ecdsdev.org/media/logos/lits-logo-web.png",
+    "description": "x",
+    "@id": "https://readux.ecdsdev.org/iiif/v2/emory:b70fm/manifest",
+    "attribution": "Emory University Libraries",
+    "label": "Af-beeldinghe van d'eerste eeuwe der Societeyt Iesu voor ooghen ghestelt door de Duyts-Nederlantsche provincie der seluer societeyt.",
+    "thumbnail": {
+        "@id": "https://loris.library.emory.edu/fedora:emory:gz698/full/600,/0/default.jpg",
+        "service": {
+            "@id": "https://loris.library.emory.edu/fedora:emory:gz698",
+            "profile": "http://iiif.io/api/image/2/level1.json",
+            "@context": "http://iiif.io/api/image/2/context.json"
+        }
+    },
+    "within": [
+        "https://readux.ecdsdev.org/collection/early-northern-european",
+        "https://readux.ecdsdev.org/collection/african-american-literature"
+    ],
+    "sequences": [
+        {
+            "@id": "https://readux.ecdsdev.org/iiif/v2/emory:b70fm/sequence/normal",
+            "label": "Current Page Order",
+            "@type": "sc:Sequence",
+            "startCanvas": "https://readux.ecdsdev.org/iiif/emory:b70fm/canvas/fedora:emory:gz698",
+            "canvases": [
+                {
+                    "height": 2096,
+                    "width": 1674,
+                    "images": [
+                        {
+                            "resource": {
+                                "height": 2096,
+                                "width": 1674,
+                                "format": "image/jpeg",
+                                "@type": "dctypes:Image",
+                                "@id": "https://loris.library.emory.edu/fedora:emory:gz698/full/full/0/default.jpg",
+                                "service": {
+                                    "@id": "https://loris.library.emory.edu/fedora:emory:gz698",
+                                    "profile": "https://iiif.io/api/image/2/level2.json",
+                                    "@context": "https://iiif.io/api/image/2/context.json"
+                                }
+                            },
+                            "motivation": "sc:painting",
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "https://readux.ecdsdev.org/iiif/emory:b70fm/annotation/fedora:emory:gz698",
+                            "on": "https://readux.ecdsdev.org/iiif/emory:b70fm/canvas/fedora:emory:gz698",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "thumbnail": {
+                        "height": 250,
+                        "width": 200,
+                        "@id": "https://loris.library.emory.edu/fedora:emory:gz698/full/200,/0/default.jpg"
+                    },
+                    "@id": "https://readux.ecdsdev.org/iiif/emory:b70fm/canvas/fedora:emory:gz698",
+                    "otherContent": [
+                        {
+                            "@id": "https://readux.ecdsdev.org/iiif/v2/emory:b70fm/list/fedora:emory:gz698",
+                            "@type": "sc:AnnotationList",
+                            "label": "OCR Text"
+                        },
+                        {
+                            "@id": "https://readux.ecdsdev.org/annotations/admin/emory:b70fm/list/fedora:emory:gz698",
+                            "@type": "sc:AnnotationList",
+                            "label": "Annotations by admin"
+                        },
+                        {
+                            "@id": "https://readux.ecdsdev.org/annotations/sepalme/emory:b70fm/list/fedora:emory:gz698",
+                            "@type": "sc:AnnotationList",
+                            "label": "Annotations by sepalme"
+                        },
+                        {
+                            "@id": "https://readux.ecdsdev.org/annotations/jay/emory:b70fm/list/fedora:emory:gz698",
+                            "@type": "sc:AnnotationList",
+                            "label": "Annotations by jay"
+                        },
+                        {
+                            "@id": "https://readux.ecdsdev.org/annotations/jcmundy39/emory:b70fm/list/fedora:emory:gz698",
+                            "@type": "sc:AnnotationList",
+                            "label": "Annotations by jcmundy39"
+                        },
+                        {
+                            "@id": "https://readux.ecdsdev.org/annotations/sarepal-github/emory:b70fm/list/fedora:emory:gz698",
+                            "@type": "sc:AnnotationList",
+                            "label": "Annotations by sarepal-github"
+                        },
+                        {
+                            "@id": "https://readux.ecdsdev.org/annotations/jpkgoogle/emory:b70fm/list/fedora:emory:gz698",
+                            "@type": "sc:AnnotationList",
+                            "label": "Annotations by jpkgoogle"
+                        }
+                    ],
+                    "@type": "sc:Canvas",
+                    "label": "1"
+                },
+                {
+                    "height": 2096,
+                    "width": 1674,
+                    "images": [
+                        {
+                            "resource": {
+                                "height": 2096,
+                                "width": 1674,
+                                "format": "image/jpeg",
+                                "@type": "dctypes:Image",
+                                "@id": "https://loris.library.emory.edu/fedora:emory:gz6dp/full/full/0/default.jpg",
+                                "service": {
+                                    "@id": "https://loris.library.emory.edu/fedora:emory:gz6dp",
+                                    "profile": "https://iiif.io/api/image/2/level2.json",
+                                    "@context": "https://iiif.io/api/image/2/context.json"
+                                }
+                            },
+                            "motivation": "sc:painting",
+                            "@context": "http://iiif.io/api/presentation/2/context.json",
+                            "@id": "https://readux.ecdsdev.org/iiif/emory:b70fm/annotation/fedora:emory:gz6dp",
+                            "on": "https://readux.ecdsdev.org/iiif/emory:b70fm/canvas/fedora:emory:gz6dp",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "@context": "http://iiif.io/api/presentation/2/context.json",
+                    "thumbnail": {
+                        "height": 250,
+                        "width": 200,
+                        "@id": "https://loris.library.emory.edu/fedora:emory:gz6dp/full/200,/0/default.jpg"
+                    },
+                    "@id": "https://readux.ecdsdev.org/iiif/emory:b70fm/canvas/fedora:emory:gz6dp",
+                    "otherContent": [
+                        {
+                            "@id": "https://readux.ecdsdev.org/iiif/v2/emory:b70fm/list/fedora:emory:gz6dp",
+                            "@type": "sc:AnnotationList",
+                            "label": "OCR Text"
+                        },
+                        {
+                            "@id": "https://readux.ecdsdev.org/annotations/jay/emory:b70fm/list/fedora:emory:gz6dp",
+                            "@type": "sc:AnnotationList",
+                            "label": "Annotations by jay"
+                        },
+                        {
+                            "@id": "https://readux.ecdsdev.org/annotations/jcmundy39/emory:b70fm/list/fedora:emory:gz6dp",
+                            "@type": "sc:AnnotationList",
+                            "label": "Annotations by jcmundy39"
+                        }
+                    ],
+                    "@type": "sc:Canvas",
+                    "label": "2"
+                }
+            ]
+        }
+    ],
+    "viewingHint": "paged",
+    "viewingDirection": "left-to-right",
+    "@type": "sc:Manifest"
+}
